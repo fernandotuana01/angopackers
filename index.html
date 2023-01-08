@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./Redes Sociais/ango_packers.ico">
+    <title>AngoPackers</title>
+</head>
+<body class="bg-light">
+    <!--Navbar-->
+   <nav class="navbar  navbar-expand-lg fixed-top navbar-info bg-warning">
+    <div class="container">
+        <a href="#" class="navbar-brand"><img src="./Redes Sociais/ango_packers.ico" alt=""> AngoPackers</a>
+        <button class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="toggle navgation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li>
+                    <a href="./index.html" class="nav-link active">Início</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="./categorias.html" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">categórias</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="./cozinha.html" class="dropdown-item bg-light" id="ango_cat"><img src="./Redes Sociais/garfo.ico" alt=""> COZINHA</a></li>
+                        <li><a href="./sala.html" class="dropdown-item" id="ango_cat"><img src="./Redes Sociais/room.ico" alt="..."> SALA</a></li>
+                        <li><a href="./quarto.html" class="dropdown-item" id="ango_cat"><img src="./Redes Sociais/quarto.ico" alt="..."> QUARTO</a></li>
+                        <li><a href="./escritorio.html" class="dropdown-item" id="ango_cat"><img src="./Redes Sociais/escritorio.ico" alt="..."> ESCRITÓRIO</a></li>
+                        <li><a href="./wc.html" class="dropdown-item" id="ango_cat"><img src="./Redes Sociais/wc.ico" alt="..."> WC</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="./Quem_somos.html" class="nav-link">Quem Somos</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="./contactos.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Contactos</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="dropdown-item" id="ango_cont"><img src="./Redes Sociais/icons8_facebook.ico" alt="...">Facebook</a></li>
+                        <li><a href="#" class="dropdown-item" id="ango_cont"><img src="./Redes Sociais/icons8_twitter.ico" alt="...">Twitter</a></li>
+                        <li><a href="#" class="dropdown-item" id="ango_cont"><img src="./Redes Sociais/icons8_instagram.ico" alt="...">Instagram</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form action="" class="d-flex" role="search">
+                <input type="search" class="form-control me-2" placeholder="Pesquisar..." aria-label="search">
+                <button class="btn btn-outline-primary" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </div>
+   </nav>
+   
+  <!--Carousel-->
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./carousel/sofa-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./carousel/tv-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./carousel/sofa-3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./carousel/cama-1.jpg" alt="..." class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./carousel/chuveiro-2.jpg" alt="..." class="d-block w-100">
+            </div>
+        </div>
+    </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+</div>
+
+    <!--Texto Descritivo-->
+    <h4 class="ango_titulo"><i><b>AngoPackers</b></i></h4>
+    <hr class="ango_">
+    <h5 class="ango_descricao">Encontre todos os seus utensílios <br> de forma rápida e fácil sem precisar sair de casa</h5>
+    <p class="ango_descricao">Com apenas um <i>Click</i> a <i><b>AngoPackers</b></i> lhe informa todos os artigos disponíveis em nossas lojas</p>
+   <br>
+   <p class="ango_descricao bg-light"><b><i>AngoPackers</i></b> É uma empresa que foi criada em <i>2022</i> para satisfazer a demanda 
+    de compententes <br> para empresas e não só, vendemos diversos tipos materiais(Mobiliários)
+     para a sua casa e para a sua empresa, <br> materiais provenientes do Exterior recêm 
+     chegados e prontos para serem usados.
+    <br>
+    <br>
+    Esta página Web tem simplesmente o objectivo de consultas dos utesílios <br> que estão disponíveis em nossas lojas que encontram-se 
+    <br> espalhadas em 5 Províncias do país até ao exato momento</p>
+
+    
+    <!--Cards-->
+    <h1 class="card_descricao">COZINHA</h1>
+    <hr class="ango_1">
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/cozinha/liquidificador-1.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">LIQUIDÍFICADOR</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                              velit assumenda dolorum optio quaerat.</p>
+                        <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/cozinha/panela-1.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">PANELAS</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/cozinha/liquidificador-2.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">LIQUIDÍFICADOR</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/cozinha/panela-2.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">PANELAS</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <h1 class="card_descricao my-3 mb-1 text-success">SALA</h1>
+            <hr class="ango_2">
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/sala/tv-1.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">TV PLASMA</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/sala/sofa-2.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">SOFÁ</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/sala/tv-2.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">TV PLASMA</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/sala/sofa-4.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">SOFÁ</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <h1 class="card_descricao my-3 mb-1 text-info">QUARTO</h1>
+            <hr class="ango_3">
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/quarto/cama-1.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">CAMA</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/quarto/espelho-1.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">ESPELHO</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/quarto/cama-2.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">CAMA</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/quarto/espelho-2.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">ESPELHO</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <h1 class="card_descricao my-3 mb-1 text-danger">WC</h1>
+            <hr class="ango_3">
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/wc/chuveiro-1.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">CHUVEIRO</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/wc/sanita-1.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">SANITA</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/wc/chuveiro-2.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">CHUVEIRO</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/wc/sanita-2.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">SANITA</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <h1 class="card_descricao my-3 mb-1 text-warning">ESCRITÓRIO</h1>
+            <hr class="ango_3">
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/escritorio/cadeira-1.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">CADEIRA</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/escritorio/secretaria-1.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">SECRETÁRIA</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/escritorio/cadeira-2.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">CADEIRA</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card bg-light">
+                    <img src="./cards/escritorio/secretaria-2.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">SECRETÁRIA</h5>
+                        <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            velit assumenda dolorum optio quaerat.</p>
+                      <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="container">
+                <div class="row justify-content-center my-5 ">
+                    <hr>
+                <h4 class="text-center">Redes Sociais</h4>
+                <div class="redes">
+                    <a href="#"><img src="./Redes Sociais/facebook.ico" alt="..."></a>
+                    <a href="#"><img src="./Redes Sociais/instagram.ico" alt="..."></a>
+                    <a href="#"><img src="./Redes Sociais/twitter.ico" alt="..."></a>
+                    <hr class="redes_">
+                </div>
+            </div>
+                <div class="info">
+                    <p><img src="./Redes Sociais/gps.ico" alt="">
+                       <b><i>AngoPackers: Até ao exato momento ainda só estamos localizados em 5 províncias de Angola</i></b><br>
+                            Luanda - Bengo - Malanje - Bié - Benguela
+                    </p>
+                </div>
+            </footer>    
+</body>
+</html>
