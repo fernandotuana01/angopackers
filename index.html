@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./Redes Sociais/ango_packers.ico">
@@ -12,9 +13,10 @@
 </head>
 <body class="bg-light">
     <!--Navbar-->
-   <nav class="navbar  navbar-expand-lg fixed-top navbar-info bg-warning">
+    <section>
+   <nav class="navbar  navbar-expand-lg fixed-top-none navbar-info bg-warning">
     <div class="container">
-        <a href="index.html" class="navbar-brand"><img src="./Redes Sociais/ango_packers.ico" alt=""> AngoPackers</a>
+        <a href="index.html" class="navbar-brand"><img src="./Redes Sociais/ango_packers.ico" alt="">AngoPackers</a>
         <button class="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
@@ -41,14 +43,6 @@
                 <li class="nav-item">
                     <a href="./Quem_somos.html" class="nav-link">Quem Somos</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a href="./contactos.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Contactos</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#" class="dropdown-item" id="ango_cont"><img src="./Redes Sociais/facebook.ico" alt="...">Facebook</a></li>
-                        <li><a href="#" class="dropdown-item" id="ango_cont"><img src="./Redes Sociais/twitter.ico" alt="...">Twitter</a></li>
-                        <li><a href="#" class="dropdown-item" id="ango_cont"><img src="./Redes Sociais/instagram.ico" alt="...">Instagram</a></li>
-                    </ul>
-                </li>
             </ul>
             <form action="" class="d-flex" role="search">
                 <input type="search" class="form-control me-2" placeholder="Pesquisar..." aria-label="search">
@@ -57,15 +51,16 @@
         </div>
     </div>
    </nav>
-   
+</section>
+
   <!--Carousel-->
+  <section>
   <div id="carousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
     </div>
     <div id="carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -73,7 +68,6 @@
             <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -88,9 +82,6 @@
             <div class="carousel-item">
                 <img src="./carousel/cama-1.jpg" alt="..." class="d-block w-100">
             </div>
-            <div class="carousel-item">
-                <img src="./carousel/chuveiro-2.jpg" alt="..." class="d-block w-100">
-            </div>
         </div>
     </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -104,27 +95,21 @@
     </div>
 </div>
 </div>
+</section>
 
     <!--Texto Descritivo-->
+    <section>
     <h4 class="ango_titulo"><i><b>AngoPackers</b></i></h4>
     <hr class="ango_">
     <h5 class="ango_descricao">Encontre todos os seus utensílios <br> de forma rápida e fácil sem precisar sair de casa</h5>
     <p class="ango_descricao">Com apenas um <i>Click</i> a <i><b>AngoPackers</b></i> lhe informa todos os artigos disponíveis em nossas lojas</p>
-   <br>
-   <p class="ango_descricao bg-light"><b><i>AngoPackers</i></b> <br> É uma empresa que foi criada em <i>2022</i> <br> para satisfazer a demanda 
-    de compententes <br> para empresas e não só, vendemos <br> diversos tipos materiais(Mobiliários) <br>
-     para a sua casa e para a sua empresa, <br> materiais provenientes do <br> Exterior recêm 
-     chegados e prontos para serem usados.
-    <br>
-    </p>
-
+</section>
     
     <!--Cards-->
-    <h1 class="card_descricao">COZINHA</h1>
-    <hr class="ango_1">
+    <section>
     <div class="container">
-        <div class="row g-3">
-            <div class="col-sm-6 col-md-3">
+        <div class="row g-3 my-3">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/cozinha/liquidificador-1.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -135,7 +120,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/cozinha/panela-1.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -146,7 +131,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/cozinha/liquidificador-2.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -157,7 +142,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/cozinha/panela-2.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -168,22 +153,20 @@
                     </div>
                 </div>
             </div>
-            <h1 class="card_descricao my-3 mb-1 text-success">SALA</h1>
-            <hr class="ango_2">
     <div class="container">
-        <div class="row g-3">
-            <div class="col-sm-6 col-md-3">
+        <div class="row g-3 my-2">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
-                    <img src="./cards/sala/tv-1.jpg" alt="..." class="card-img-top">
+                    <img src="./cards/cozinha/gileira-1.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title text-center">TV PLASMA</h5>
+                        <h5 class="card-title text-center">GELEIRA</h5>
                         <p class="card-text text-muted"><i class="text-dark">Descrição:</i> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             velit assumenda dolorum optio quaerat.</p>
                       <p class="card-text text-muted"><i class="text-dark">Preço: </i>dhqvIUFVGU</p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/sala/sofa-2.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -194,7 +177,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/sala/tv-2.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -205,7 +188,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/sala/sofa-4.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -216,11 +199,9 @@
                     </div>
                 </div>
             </div>
-            <h1 class="card_descricao my-3 mb-1 text-info">QUARTO</h1>
-            <hr class="ango_3">
     <div class="container">
-        <div class="row g-3">
-            <div class="col-sm-6 col-md-3">
+        <div class="row g-3 my-2">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/quarto/cama-1.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -231,7 +212,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/quarto/espelho-1.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -242,7 +223,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/quarto/cama-2.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -253,7 +234,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/quarto/espelho-2.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -264,11 +245,9 @@
                     </div>
                 </div>
             </div>
-            <h1 class="card_descricao my-3 mb-1 text-danger">WC</h1>
-            <hr class="ango_3">
     <div class="container">
-        <div class="row g-3">
-            <div class="col-sm-6 col-md-3">
+        <div class="row g-3 my-2">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/wc/chuveiro-1.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -279,7 +258,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/wc/sanita-1.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -290,7 +269,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/wc/chuveiro-2.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -301,7 +280,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/wc/sanita-2.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -312,11 +291,9 @@
                     </div>
                 </div>
             </div>
-            <h1 class="card_descricao my-3 mb-1 text-warning">ESCRITÓRIO</h1>
-            <hr class="ango_3">
     <div class="container">
-        <div class="row g-3">
-            <div class="col-sm-6 col-md-3">
+        <div class="row g-3 my-2">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/escritorio/cadeira-1.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -327,7 +304,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/escritorio/secretaria-1.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -338,7 +315,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/escritorio/cadeira-2.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -349,7 +326,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 my-1">
                 <div class="card bg-light">
                     <img src="./cards/escritorio/secretaria-2.jpg" alt="..." class="card-img-top">
                     <div class="card-body">
@@ -360,23 +337,32 @@
                     </div>
                 </div>
             </div>
-            <footer class="container">
-                <div class="row justify-content-center my-5 ">
-                    <hr>
-                <h4 class="text-center">Redes Sociais</h4>
-                <div class="redes">
-                    <a href="#"><img src="./Redes Sociais/facebook.ico" alt="..."></a>
-                    <a href="#"><img src="./Redes Sociais/instagram.ico" alt="..."></a>
-                    <a href="#"><img src="./Redes Sociais/twitter.ico" alt="..."></a>
-                    <hr class="redes_">
-                </div>
-            </div>
-                <div class="info">
-                    <p><img src="./Redes Sociais/gps.ico" alt="">
-                       <b><i>AngoPackers: Até ao Exato momento ainda só estamos localizados em 5 províncias de Angola</i></b><br>
-                            Luanda - Bengo - Malanje - Bié - Benguela
-                    </p>
-                </div>
-            </footer>    
+        </section>
+
+       <!--footer-->
+    <section style="background-color: orange;">
+       <footer class="container" style="top: 0%;
+       margin-bottom: -20%; padding-bottom: -20%;">
+           <div class="row justify-content-center my-2">
+               <hr>
+           <h4 class="text-center text-dark">Redes Sociais</h4>
+           <div class="redes">
+               <a href="#"><img src="./Redes Sociais/facebook.ico" alt="..."></a>
+               <a href="#"><img src="./Redes Sociais/instagram.ico" alt="..."></a>
+               <a href="#"><img src="./Redes Sociais/twitter.ico" alt="..."></a>
+               <hr class="redes_">
+           </div>
+       </div>
+           <div class="info">
+               <p><img src="./Redes Sociais/gps.ico" alt="">
+                  <b><i>AngoPackers: Até ao Exato momento ainda só estamos localizados em 5 províncias de Angola</i></b><br>
+                       Luanda - Bengo - Malanje - Bié - Benguela
+               </p>
+           </div>
+       </footer>
+    </section>
+    
+        <!--Linkando o js-->
+            <script src="./js/bootstrap.js"></script>
 </body>
 </html>
